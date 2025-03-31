@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2-B35 Kopyala Butonları</title>
+    <script>
+        // Kopyalama işlevini tanımlıyoruz
+        function copyText(cellId) {
+            // Hedef hücreyi alıyoruz
+            var text = document.getElementById(cellId).innerText;
+            
+            // Geçici bir input elementi oluşturup metni bu input'a koyuyoruz
+            var tempInput = document.createElement("input");
+            document.body.appendChild(tempInput);
+            tempInput.value = text;
+            tempInput.select();  // Metni seçiyoruz
+            document.execCommand("copy");  // Metni panoya kopyalıyoruz
+            document.body.removeChild(tempInput);  // Geçici input'u siliyoruz
+            alert(cellId + " kopyalandı: " + text);  // Kullanıcıya bilgi veriyoruz
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Hücreleri Kopyala</h1>
+    
+    <!-- B2 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB2')">B2 Hücresini Kopyala</button>
+    <p id="cellB2">Bu B2 hücresindeki metin örneğidir.</p>
+
+    <!-- B3 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB3')">B3 Hücresini Kopyala</button>
+    <p id="cellB3">Bu B3 hücresindeki metin örneğidir.</p>
+
+    <!-- B4 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB4')">B4 Hücresini Kopyala</button>
+    <p id="cellB4">Bu B4 hücresindeki metin örneğidir.</p>
+
+    <!-- B5 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB5')">B5 Hücresini Kopyala</button>
+    <p id="cellB5">Bu B5 hücresindeki metin örneğidir.</p>
+
+    <!-- B6 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB6')">B6 Hücresini Kopyala</button>
+    <p id="cellB6">Bu B6 hücresindeki metin örneğidir.</p>
+
+    <!-- B7 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB7')">B7 Hücresini Kopyala</button>
+    <p id="cellB7">Bu B7 hücresindeki metin örneğidir.</p>
+
+    <!-- B8 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB8')">B8 Hücresini Kopyala</button>
+    <p id="cellB8">Bu B8 hücresindeki metin örneğidir.</p>
+
+    <!-- B9 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB9')">B9 Hücresini Kopyala</button>
+    <p id="cellB9">Bu B9 hücresindeki metin örneğidir.</p>
+
+    <!-- B10 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB10')">B10 Hücresini Kopyala</button>
+    <p id="cellB10">Bu B10 hücresindeki metin örneğidir.</p>
+
+    <!-- B11 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB11')">B11 Hücresini Kopyala</button>
+    <p id="cellB11">Bu B11 hücresindeki metin örneğidir.</p>
+
+    <!-- B12 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB12')">B12 Hücresini Kopyala</button>
+    <p id="cellB12">Bu B12 hücresindeki metin örneğidir.</p>
+
+    <!-- B13 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB13')">B13 Hücresini Kopyala</button>
+    <p id="cellB13">Bu B13 hücresindeki metin örneğidir.</p>
+
+    <!-- B14 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB14')">B14 Hücresini Kopyala</button>
+    <p id="cellB14">Bu B14 hücresindeki metin örneğidir.</p>
+
+    <!-- B15 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB15')">B15 Hücresini Kopyala</button>
+    <p id="cellB15">Bu B15 hücresindeki metin örneğidir.</p>
+
+    <!-- B16 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB16')">B16 Hücresini Kopyala</button>
+    <p id="cellB16">Bu B16 hücresindeki metin örneğidir.</p>
+
+    <!-- B17 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB17')">B17 Hücresini Kopyala</button>
+    <p id="cellB17">Bu B17 hücresindeki metin örneğidir.</p>
+
+    <!-- B18 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB18')">B18 Hücresini Kopyala</button>
+    <p id="cellB18">Bu B18 hücresindeki metin örneğidir.</p>
+
+    <!-- B19 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB19')">B19 Hücresini Kopyala</button>
+    <p id="cellB19">Bu B19 hücresindeki metin örneğidir.</p>
+
+    <!-- B20 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB20')">B20 Hücresini Kopyala</button>
+    <p id="cellB20">Bu B20 hücresindeki metin örneğidir.</p>
+
+    <!-- B21 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB21')">B21 Hücresini Kopyala</button>
+    <p id="cellB21">Bu B21 hücresindeki metin örneğidir.</p>
+
+    <!-- B22 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB22')">B22 Hücresini Kopyala</button>
+    <p id="cellB22">Bu B22 hücresindeki metin örneğidir.</p>
+
+    <!-- B23 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB23')">B23 Hücresini Kopyala</button>
+    <p id="cellB23">Bu B23 hücresindeki metin örneğidir.</p>
+
+    <!-- B24 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB24')">B24 Hücresini Kopyala</button>
+    <p id="cellB24">Bu B24 hücresindeki metin örneğidir.</p>
+
+    <!-- B25 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB25')">B25 Hücresini Kopyala</button>
+    <p id="cellB25">Bu B25 hücresindeki metin örneğidir.</p>
+
+    <!-- B26 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB26')">B26 Hücresini Kopyala</button>
+    <p id="cellB26">Bu B26 hücresindeki metin örneğidir.</p>
+
+    <!-- B27 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB27')">B27 Hücresini Kopyala</button>
+    <p id="cellB27">Bu B27 hücresindeki metin örneğidir.</p>
+
+    <!-- B28 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB28')">B28 Hücresini Kopyala</button>
+    <p id="cellB28">Bu B28 hücresindeki metin örneğidir.</p>
+
+    <!-- B29 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB29')">B29 Hücresini Kopyala</button>
+    <p id="cellB29">Bu B29 hücresindeki metin örneğidir.</p>
+
+    <!-- B30 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB30')">B30 Hücresini Kopyala</button>
+    <p id="cellB30">Bu B30 hücresindeki metin örneğidir.</p>
+
+    <!-- B31 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB31')">B31 Hücresini Kopyala</button>
+    <p id="cellB31">Bu B31 hücresindeki metin örneğidir.</p>
+
+    <!-- B32 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB32')">B32 Hücresini Kopyala</button>
+    <p id="cellB32">Bu B32 hücresindeki metin örneğidir.</p>
+
+    <!-- B33 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB33')">B33 Hücresini Kopyala</button>
+    <p id="cellB33">Bu B33 hücresindeki metin örneğidir.</p>
+
+    <!-- B34 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB34')">B34 Hücresini Kopyala</button>
+    <p id="cellB34">Bu B34 hücresindeki metin örneğidir.</p>
+
+    <!-- B35 hücresine karşılık gelen buton -->
+    <button onclick="copyText('cellB35')">B35 Hücresini Kopyala</button>
+    <p id="cellB35">Bu B35 hücresindeki metin örneğidir.</p>
+
+</body>
+</html>
